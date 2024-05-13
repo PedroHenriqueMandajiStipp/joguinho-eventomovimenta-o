@@ -17,7 +17,7 @@ function disparaTiro(col, lin) {
     ctx.clearRect(col, lin, 2, 5);
     ctx.fillRect(col, lin-6, 2, 5);
   }
-  setTimeout(function(){ disparaTiro(col, lin-6) },1);
+  setTimeout(function(){ disparaTiro(col, lin-6) }, 1);
 }
     
     
